@@ -78,8 +78,7 @@ plugins:
       minify_js: true
   - git-revision-date
 
-hooks:
-  - hooks.py
+
 
 extra:
   generator: false
