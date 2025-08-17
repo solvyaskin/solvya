@@ -1,0 +1,74 @@
+# --- CORE SITE METADATA ---
+site_name: Solvya Skin © - Handcrafted Papaya & Milk Soap
+site_url: https://solvya.com
+site_description: Discover Solvya Skin's Papaya & Milk Gentle Renew Soap, a handcrafted, natural skincare solution from the Philippines. Perfect for sensitive skin, our soap is made in small batches, combining heritage and gentle care to reveal your true glow.
+site_author: Solvya Skin
+
+# --- OPTIONAL REPOSITORY LINKS (Update or remove) ---
+repo_name: your-github-username/solvya-skin-website
+repo_url: https://github.com/your-github-username/solvya-skin-website
+
+# --- FOOTER ---
+copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved. Maintained by <a href="https://solvya.com">Solvya</a>.
+
+
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.ico
+  logo: assets/solvya_favicon.png
+  palette:
+    primary: white
+    accent: white
+    scheme: default
+  features:
+    - "-navigation.search"
+    - navigation.toc
+  font:
+    text: Google Sans
+
+# Corrected: extra_css is a top-level key
+extra_css:
+  - stylesheets/extra.css
+
+# Corrected: social is now a top-level key
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+      name: Mastodon # Suggestion
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<email-address>
+      name: Email # Suggestion
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/aitrends.now
+      name: TrendingNow on Instagram
+  generator: false
+
+nav:
+  - Handcrafted Papaya & Milk Soap: index.md
+  - Contact: contact.md
+  - About Us: about.md
+ 
+
+markdown_extensions:
+  - admonition # Creates styled call-out boxes
+  - pymdownx.details
+  - toc:
+      permalink: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+ 
+
+
+
+extra_head:
+  - '<link rel="preconnect" href="https://fonts.googleapis.com">'
+  - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+  - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
+  
