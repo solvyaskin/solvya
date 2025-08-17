@@ -1,0 +1,115 @@
+body {
+  font-family: 'Google Sans', sans-serif; 
+  font-size: 15px;
+  font-weight: 300;
+  
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-rendering: optimizeLegibility;
+  line-height: 1.5; 
+}
+/* Target bold or strong text within all elements */
+* b, * strong { 
+  font-weight: 600; /* Or 700, depending on your preference */
+  letter-spacing: 0.03em; /* Can slightly improve readability */ 
+}
+
+[data-md-color-scheme="Solvya"] {
+  --md-primary-fg-color:        #FCFCFC;
+  --md-primary-fg-color--light: #FCFCFC;
+  --md-primary-fg-color--dark:  #1B1B1B;
+}
+
+.md-header--shadow {
+  box-shadow: none !important;
+}
+ .md-search {
+        display: none;
+    }
+
+.md-typeset pre {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-family: 'Google Sans', Courier, monospace;
+  line-height: 1.5;
+}
+
+/* Container to center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0; /* Adds some space above and below */
+}
+
+
+
+.glow-button {
+  /* --- Color & Background --- */
+  background-color: #448aff1a;
+  color: var(--md-admonition-fg-color) !important; /* Explicitly sets text color to white */
+  border: .075rem solid #448aff;
+
+  /* --- Sizing & Spacing --- */
+  display: block;
+  width: 100%;  /* Make it take full width minus some padding on the sides, adjust '40px' as needed */
+  max-width: none; /* Override any previous max-width */
+  margin: 20px auto 0 auto;
+  padding: 15px 20px;
+  
+  /* --- Typography --- */
+  text-align: center; /* <<< THIS IS THE FIX for centering text */
+  font-size: 1.1em; 
+  font-weight: 600; 
+  letter-spacing: 0.5px; 
+  
+  /* --- Shape & Effects --- */
+  border-radius:.2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+/* --- Interactivity --- */
+.glow-button:hover {
+  background-color: #7c4dff1a;
+  transform: translateY(-2px);
+  border: .075rem solid #7c4dff1a;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: -15%; /* Adjust this percentage as needed */
+}
+
+
+.md-typeset h1 {
+    color: var(--md-default-fg-color--light);
+    font-size: 2em;
+    line-height: 1.3;
+    margin: 0 0 1.25em;
+  }
+  p {
+  margin-bottom: 0.5rem; /* Adjust this value to increase or decrease the space */
+}
+
+.md-typeset h1 {
+    color: var(--md-default-fg-color--light);
+    
+    margin: 1.25em 0 1.25em !important;
+}
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 700!important;
+}
+
+.md-content {
+   
+    margin-top: -53px !important;
+}
