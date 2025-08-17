@@ -66,6 +66,13 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
  
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_css: true
+      minify_js: true
+  - git-revision-date
 
 
 
