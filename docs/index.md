@@ -7,7 +7,7 @@ description: Experience the Gentle Renew Soap from Solvya Skin. Our natural Papa
 # The Unfair Choice for Your Skin
 
 <p style="text-align: center;">
-  <img src="assets/damage skin.jpg" alt="Dry and irritated skin" style="border-radius: 8px; max-width: 100%;">
+  <img src="assets/damage skin.webp" alt="Dry and irritated skin" style="border-radius: 8px; max-width: 100%;">
 </p>
 
 For too long, achieving a brighter complexion meant compromising your skin's health. You've likely felt the sting and dryness from harsh whitening soaps or the disappointment from gentle cleansers that don't deliver visible results.
@@ -17,7 +17,7 @@ For too long, achieving a brighter complexion meant compromising your skin's hea
 **The "Gentle" Letdown**: So-called moisturizing bars are kind to your skin but do little to even out your skin tone or restore your natural glow.
 
 <p style="text-align: center;">
-  <img src="assets/damage skin 2.jpg" alt="Unflattering soap products" style="border-radius: 8px; max-width: 100%;">
+  <img src="assets/damage skin 2.webp" alt="Unflattering soap products" style="border-radius: 8px; max-width: 100%;">
 </p>
 
 **The Endless Search**: You're left searching for a **"natural"** solution that actually works, one that pampers your sensitive skin while revealing its true radiance.
@@ -31,7 +31,7 @@ Introducing the **Papaya & Milk Gentle Renew Soap©** —the perfect harmony of 
 <div class="feature-split" markdown>
 
   <div class="media">
-    <img src="assets/Solvja.png" alt="Solvya Oatmeal Soap">
+    <img src="assets/Solvja.webp" alt="Solvya Oatmeal Soap">
   </div>
 
   <div markdown>
@@ -51,7 +51,7 @@ Introducing the **Papaya & Milk Gentle Renew Soap©** —the perfect harmony of 
 </div>
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-  <a href="buy.md" class="glow-button">
+  <a href="order/" class="glow-button">
     <i class="fas fa-cart-shopping"></i> Add to Cart & Renew My Glow 🛒
   </a>
 </div>
@@ -105,7 +105,7 @@ Stop compromising and start nourishing. Give your skin the gentle, effective car
     While oatmeal soap can be beneficial for many skin conditions, it's always a good idea to consult with a dermatologist or healthcare professional for personalized advice and treatment, especially if you have severe skin problems.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-  <a href="buy.md" class="glow-button">
+  <a href="order/" class="glow-button">
     <i class="fas fa-cart-shopping"></i> Add to Cart & Renew My Glow 🛒
   </a>
 </div>

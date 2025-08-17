@@ -123,3 +123,24 @@ body {
 .md-typeset .feature-split .media img{width:100%;height:100%;object-fit:cover;border-radius:.5rem}
 .md-typeset .feature-split .admonition{height:100%;margin:0;display:flex;flex-direction:column}
 .md-typeset .feature-split .admonition>*:last-child{margin-bottom:0}
+
+
+form input[type="text"],
+form input[type="tel"] {
+  width: 100%;
+  max-width: 520px;
+  padding: .6rem .8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem;
+}
+form fieldset {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .5rem;
+  padding: .8rem 1rem;
+}
+form button[type="submit"] {
+  padding: .6rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}

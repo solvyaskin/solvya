@@ -9,7 +9,7 @@ repo_name: solvyaskin/solvya
 repo_url: https://github.com/solvyaskin/solvya
 
 # --- FOOTER ---
-copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved. Made for Mobile (Speed).
+copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved.
 
 
 theme:
@@ -17,15 +17,18 @@ theme:
   language: en
   favicon: assets/solvya_favicon.png
   logo: assets/solvya_favicon.png
+  generator: false  
   palette:
     primary: white
     accent: white
     scheme: default
   features:
-    - "-navigation.search"
+    - navigation.search
     - navigation.toc
+    
   font:
     text: Google Sans
+
 
 # Corrected: extra_css is a top-level key
 extra_css:
@@ -43,12 +46,13 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/aitrends.now
       name: TrendingNow on Instagram
-  generator: false
+
 
 nav:
   - Handcrafted Papaya & Milk Soap: index.md
   - Contact: contact.md
   - About Us: about.md
+  - Order Now: order.md
  
 
 markdown_extensions:
@@ -74,12 +78,17 @@ plugins:
       minify_js: true
   - git-revision-date
 
-
+hooks:
+  - hooks.py
 
 extra:
+  generator: false
   head:
     - '<link rel="preconnect" href="https://fonts.googleapis.com">'
     - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
     - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
+    - '<link rel="preload" as="image" href="/assets/damage skin.webp" imagesrcset="/assets/damage skin.webp 800w, /assets/damage skin.webp 1200w" imagesizes="100vw" fetchpriority="high">'
+    - '<link rel="preload" as="image" href="/assets/damage skin 2.webp" imagesrcset="/assets/damage skin 2.webp 800w, /assets/damage skin 2.webp 1200w" imagesizes="100vw" fetchpriority="high">'
+    - '<link rel="preload" as="image" href="/assets/Solvja.webp" imagesrcset="/assets/Solvja.webp 800w, /assets/Solvja.webp 1200w" imagesizes="100vw" fetchpriority="high">'
 
   

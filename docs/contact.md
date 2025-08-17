@@ -7,15 +7,15 @@ We cherish the connections we make with skincare enthusiasts and everyone on a j
 
 For general inquiries, partnerships, or media-related requests, please email us at:
 
- :fontawesome-solid-envelope: **Email:** [hello@solvya.com](mailto:hello@solvya.com)
+ :fontawesome-solid-envelope: **Email:** [solvya.co@gmail.com](mailto:solvya.co@gmail.com)
 
 ## Connect on Social Media
 
 Stay updated with our story, product news, and skincare tips by following our journey. Let’s connect:
 
-:fontawesome-brands-instagram: **Instagram:** [@SolvyaSkin](https://instagram.com/SolvyaSkin)
+:fontawesome-brands-instagram: **Instagram:** [@SolvyaSkin](https://instagram.com/livesolvya)
 
-:fontawesome-brands-facebook: **Facebook:** [Solvya Skin](https://facebook.com/SolvyaSkin)
+:fontawesome-brands-facebook: **Facebook:** [Solvya Skin](https://www.facebook.com/solvyaskin)
 
 :fontawesome-brands-tiktok: **TikTok:** [@SolvyaSkin](https://tiktok.com/@SolvyaSkin)
 
@@ -32,7 +32,7 @@ Want to contact us directly? You can reach us instantly through your favorite me
     </button>
   </a>
 
-  <a href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME" target="_blank" style="text-decoration: none; margin: 0 5px;">
+  <a href="https://m.me/solvyaskin" target="_blank" style="text-decoration: none; margin: 0 5px;">
     <button style="padding: 12px 24px; background-color: #0084FF; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
       <i class="fab fa-facebook-messenger"></i> Chat on Messenger
     </button>
