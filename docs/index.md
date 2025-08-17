@@ -50,6 +50,11 @@ Introducing the **Papaya & Milk Gentle Renew Soap©** —the perfect harmony of 
 
 </div>
 
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <a href="buy.md" class="glow-button">
+    <i class="fas fa-cart-shopping"></i> Add to Cart & Renew My Glow 🛒
+  </a>
+</div>
 
 !!! warning "Dermatological Advantages of Oatmeal Soap"
 
