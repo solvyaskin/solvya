@@ -113,3 +113,13 @@ body {
    
     margin-top: -53px !important;
 }
+
+
+
+
+.md-typeset .feature-split{display:grid;grid-template-columns:1fr;gap:1rem;align-items:stretch}
+@media (min-width:820px){.md-typeset .feature-split{grid-template-columns:1fr 1fr}}
+.md-typeset .feature-split .media{min-height:280px}
+.md-typeset .feature-split .media img{width:100%;height:100%;object-fit:cover;border-radius:.5rem}
+.md-typeset .feature-split .admonition{height:100%;margin:0;display:flex;flex-direction:column}
+.md-typeset .feature-split .admonition>*:last-child{margin-bottom:0}
