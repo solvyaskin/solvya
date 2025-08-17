@@ -31,7 +31,7 @@ Introducing the **Papaya & Milk Gentle Renew Soap©** —the perfect harmony of 
 <div class="feature-split" markdown>
 
   <div class="media">
-    <img src="assets/Solvja.png" alt="Example image">
+    <img src="assets/Solvja.png" alt="Solvya Oatmeal Soap">
   </div>
 
   <div markdown>
