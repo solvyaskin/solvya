@@ -20,15 +20,36 @@ For too long, achieving a brighter complexion meant compromising your skin's hea
   <img src="assets/damage skin 2.jpg" alt="Unflattering soap products" style="border-radius: 8px; max-width: 100%;">
 </p>
 
-**The Endless Search**: You're left searching for a "natural" solution that actually works, one that pampers your sensitive skin while revealing its true radiance.
+**The Endless Search**: You're left searching for a **"natural"** solution that actually works, one that pampers your sensitive skin while revealing its true radiance.
 
 # Renew Your Glow, Gently.
 
 Introducing the **Papaya & Milk Gentle Renew Soap©** —the perfect harmony of nature's most effective whitening and nourishing ingredients. We've crafted a soap that doesn't force you to choose. It's where the potent power of papaya meets the calming embrace of milk.
 
-<p style="text-align: center;">
-  <img src="assets/oatmealsoap.png" alt="Solvya Papaya & Milk Gentle Renew Soap" style="border-radius: 8px; max-width: 100%;">
-</p>
+
+
+<div class="feature-split" markdown>
+
+  <div class="media">
+    <img src="assets/Solvja.png" alt="Example image">
+  </div>
+
+  <div markdown>
+
+!!! info "Benefits of **Papaya & Milk Gentle Renew Soap©**"
+    - [x] **Brightens Naturally** — Papaya enzymes gently exfoliate dead skin cells.  
+    - [x] **Deeply Nourishes** — Goat’s Milk hydrates with Vitamins A & B.  
+    - [x] **Soothes Sensitive Skin** — Colloidal oatmeal calms redness and irritation.  
+    - [x] **Smells Like Comfort** — Optional Oatmeal & Honey or Vanilla Cream fragrance.  
+    - [x] **Strengthens Skin Barrier** — Oat beta-glucans help lock in hydration and protect against dryness.  
+    - [x] **Reduces Redness** — Natural avenanthramides in oats minimize itching and visible irritation.  
+    - [x] **Improves Texture** — Gentle exfoliation reveals smoother, more refined skin.  
+    - [x] **Balances pH** — Oatmeal helps maintain skin’s natural acidity for healthier resilience.  
+
+  </div>
+
+</div>
+
 
 !!! warning "Dermatological Advantages of Oatmeal Soap"
 
