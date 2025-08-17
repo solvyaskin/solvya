@@ -86,8 +86,5 @@ extra:
     - '<link rel="preconnect" href="https://fonts.googleapis.com">'
     - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
     - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
-    - '<link rel="preload" as="image" href="/assets/damage skin.webp" imagesrcset="/assets/damage skin.webp 800w, /assets/damage skin.webp 1200w" imagesizes="100vw" fetchpriority="high">'
-    - '<link rel="preload" as="image" href="/assets/damage skin 2.webp" imagesrcset="/assets/damage skin 2.webp 800w, /assets/damage skin 2.webp 1200w" imagesizes="100vw" fetchpriority="high">'
-    - '<link rel="preload" as="image" href="/assets/Solvja.webp" imagesrcset="/assets/Solvja.webp 800w, /assets/Solvja.webp 1200w" imagesizes="100vw" fetchpriority="high">'
-
+   
   
