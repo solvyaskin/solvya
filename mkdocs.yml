@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved. Made for Mobi
 theme:
   name: material
   language: en
-  favicon: assets/favicon.ico
+  favicon: assets/solvya_favicon.png
   logo: assets/solvya_favicon.png
   palette:
     primary: white
@@ -69,8 +69,10 @@ markdown_extensions:
 
 
 
-extra_head:
-  - '<link rel="preconnect" href="https://fonts.googleapis.com">'
-  - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-  - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
+extra:
+  head:
+    - '<link rel="preconnect" href="https://fonts.googleapis.com">'
+    - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+    - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
+
   
