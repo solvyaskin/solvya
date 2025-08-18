@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://solvyaskin.github.io/</loc>
+         <loc>https://solvyaskin.github.io/solvya/</loc>
          <lastmod>2025-08-18</lastmod>
     </url>
     <url>
-         <loc>https://solvyaskin.github.io/about/</loc>
+         <loc>https://solvyaskin.github.io/solvya/about/</loc>
          <lastmod>2025-08-18</lastmod>
     </url>
     <url>
-         <loc>https://solvyaskin.github.io/contact/</loc>
+         <loc>https://solvyaskin.github.io/solvya/contact/</loc>
          <lastmod>2025-08-18</lastmod>
     </url>
     <url>
-         <loc>https://solvyaskin.github.io/order/</loc>
+         <loc>https://solvyaskin.github.io/solvya/order/</loc>
          <lastmod>2025-08-18</lastmod>
     </url>
 </urlset>
