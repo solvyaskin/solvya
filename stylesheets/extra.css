@@ -145,5 +145,5 @@ form button[type="submit"] {
   cursor: pointer;
 }
 .md-header__topic:first-child {
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
