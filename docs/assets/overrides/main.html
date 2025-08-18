@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">
+  <link rel="preload" as="image" href="{{ 'assets/damage-skin.webp' | url }}">
+  <link rel="preload" as="image" href="{{ 'assets/damage-skin-2.webp' | url }}">
+  <link rel="preload" as="image" href="{{ 'assets/Solvya.webp' | url }}">
+{% endblock %}

@@ -144,3 +144,6 @@ form button[type="submit"] {
   border-radius: .5rem;
   cursor: pointer;
 }
+.md-header__topic:first-child {
+    font-weight: 300 !important;
+}

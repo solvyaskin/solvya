@@ -1,6 +1,6 @@
 # --- CORE SITE METADATA ---
 site_name: Solvya Skin  - Handcrafted Papaya & Milk Soap
-site_url: https://solvyaskin.github.io/solvya/
+site_url: https://solvyaskin.github.io/
 site_description: Discover Solvya Skin's Papaya & Milk Gentle Renew Soap, a handcrafted, natural skincare solution from the Philippines. Perfect for sensitive skin, our soap is made in small batches, combining heritage and gentle care to reveal your true glow.
 site_author: Solvya Skin
 
@@ -11,13 +11,13 @@ repo_url: https://github.com/solvyaskin/solvya
 # --- FOOTER ---
 copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved.
 
-
+# --- THEME CONFIGURATION ---
 theme:
   name: material
   language: en
+  custom_dir: overrides
   favicon: assets/solvya_favicon.png
   logo: assets/solvya_favicon.png
-  generator: false  
   palette:
     primary: white
     accent: white
@@ -25,38 +25,42 @@ theme:
   features:
     - navigation.search
     - navigation.toc
-    
   font:
     text: Google Sans
 
-
-# Corrected: extra_css is a top-level key
+# --- EXTRA ASSETS ---
 extra_css:
   - stylesheets/extra.css
 
-# Corrected: social is now a top-level key
+extra_javascript:
+  - js/preload-images.js
+
+
+
+# --- EXTRA METADATA & SOCIAL LINKS ---
 extra:
+  generator: false # Disables the "Made with Material for MkDocs" footer text
   social:
-    - icon: fontawesome/brands/mastodon 
+    - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@squidfunk
-      name: Mastodon # Suggestion
+      name: Mastodon
     - icon: fontawesome/solid/paper-plane
       link: mailto:<email-address>
-      name: Email # Suggestion
+      name: Email
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/aitrends.now
       name: TrendingNow on Instagram
 
-
+# --- NAVIGATION MENU ---
 nav:
   - Handcrafted Papaya & Milk Soap: index.md
   - Contact: contact.md
   - About Us: about.md
   - Order Now: order.md
- 
 
+# --- MARKDOWN EXTENSIONS ---
 markdown_extensions:
-  - admonition # Creates styled call-out boxes
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - toc:
@@ -65,13 +69,13 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
-  - md_in_html 
+  - md_in_html
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
- 
+
+# --- PLUGINS ---
 plugins:
-  - search
   - minify:
       minify_html: true
       minify_css: true
@@ -79,20 +83,3 @@ plugins:
   - git-revision-date
   - social:
       cards: false
-
-extra_javascript:
-  - js/preload.js
-
-
-    
-    
-extra:
-  generator: false
-  head:
-    - '<link rel="preconnect" href="https://fonts.googleapis.com">'
-    - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-    - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
-    - '<link rel="preload" as="image" href="assets/damage skin.webp">'
-    - '<link rel="preload" as="image" href="assets/damage skin 2.webp">'
-    - '<link rel="preload" as="image" href="assets/Solvja.webp">'   
-  
