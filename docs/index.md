@@ -1,4 +1,15 @@
 ---
+extra_head: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">
+  <link rel="preload" as="image" href="/assets/damage%20skin.webp">
+  <link rel="preload" as="image" href="/assets/damage%20skin%202.webp">
+  <link rel="preload" as="image" href="/assets/Solvja.webp">
+---
+
+
+---
 hide:
   - toc
 description: Experience the Gentle Renew Soap from Solvya Skin. Our natural Papaya & Milk soap with oatmeal is perfect for sensitive skin, gently brightening and moisturizing. Order now for ₱145.

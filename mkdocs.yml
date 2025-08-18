@@ -77,15 +77,22 @@ plugins:
       minify_css: true
       minify_js: true
   - git-revision-date
-  - social
+  - social:
+      cards: false
+
+extra_javascript:
+  - js/preload.js
 
 
-
+    
+    
 extra:
   generator: false
   head:
     - '<link rel="preconnect" href="https://fonts.googleapis.com">'
     - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
     - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">'
-   
+    - '<link rel="preload" as="image" href="assets/damage skin.webp">'
+    - '<link rel="preload" as="image" href="assets/damage skin 2.webp">'
+    - '<link rel="preload" as="image" href="assets/Solvja.webp">'   
   
