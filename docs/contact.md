@@ -50,10 +50,3 @@ We aim to respond to all inquiries within 24–48 hours.
 
 We look forward to connecting with you!
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 20px;">
-  <span><strong>Courier:</strong></span>
-  <img src="assets/damage skin.webp" alt="GOGO Express" style="height: 25px; width: auto;">
-  <img src="assets/shopee-logo.webp" alt="Shopee" style="height: 30px; width: auto;">
-  <img src="assets/lbc-logo.webp" alt="LBC" style="height: 30px; width: auto;">
-  <img src="assets/jnt-logo.webp" alt="J&T Express" style="height: 40px; width: auto;">
-</div>

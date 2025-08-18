@@ -1,6 +1,7 @@
 # --- CORE SITE METADATA ---
 site_name: Solvya Skin  - Handcrafted Papaya & Milk Soap
-site_url: https://solvyaskin.github.io/
+# In mkdocs.yml
+site_url: https://solvyaskin.github.io/solvya/
 site_description: Discover Solvya Skin's Papaya & Milk Gentle Renew Soap, a handcrafted, natural skincare solution from the Philippines. Perfect for sensitive skin, our soap is made in small batches, combining heritage and gentle care to reveal your true glow.
 site_author: Solvya Skin
 
@@ -15,7 +16,6 @@ copyright: Copyright &copy; 2025 Solvya Skin. All rights reserved.
 theme:
   name: material
   language: en
-  custom_dir: overrides
   favicon: assets/solvya_favicon.png
   logo: assets/solvya_favicon.png
   palette:
@@ -32,8 +32,7 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - js/preload-images.js
+
 
 
 
