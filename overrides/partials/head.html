@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+  {{ super() }}
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v64/4UasrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v64/4UasrENHsxJlGDuGo1OIlL041otzCwZsPF4o.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/googlesans/v64/4UasrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+{% endblock %}
+
+extra:
+  head:
+    - |
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Solvya – Nature-Inspired Wellness & Skincare" />
+      <meta property="og:description" content="Solvya – Nature-Inspired Wellness & Skincare" />
+      <meta property="og:url" content="https://solvyaskin.github.io/solvya/" />
+      <meta property="og:image" content="https://solvyaskin.github.io/solvya/assets/socialcard.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Solvya – Nature-Inspired Wellness & Skincare" />
+      <meta name="twitter:description" content="Handcrafted soaps and skincare powered by nature." />
+      <meta name="twitter:image" content="https://solvyaskin.github.io/solvya/assets/socialcard.jpg" />
