@@ -19,13 +19,7 @@ html {
   src: url(https://fonts.gstatic.com/s/googlesans/v64/4UasrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2) format('woff2');
 }
 
-/* Mobile responsive */
-@media (max-width: 768px) {
-  .glow-button {
-    padding: 12px 20px;
-    font-size: 14px;
-  }
-}
+
 
 :root {
   --md-text-font: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -183,3 +177,5 @@ form button[type="submit"] {
 .md-header__topic:first-child {
     font-weight: 300 !important;
 }
+
+
