@@ -180,4 +180,20 @@ form button[type="submit"] {
     font-weight: 300 !important;
 }
 
+/* Image performance optimizations */
+img {
+  max-width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
 
+/* Lazy loading optimization */
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+
+/* WebP optimization */
+img[src$=".webp"] {
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
