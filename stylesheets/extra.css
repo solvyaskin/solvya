@@ -78,19 +78,21 @@ body {
 
 .glow-button {
   /* --- Color & Background --- */
-  background-color: #448aff1a;
-  color: var(--md-admonition-fg-color) !important; /* Explicitly sets text color to white */
+  background-color: #448aff33;
+  color: var(--md-admonition-fg-color) !important;
   border: .075rem solid #448aff;
+ 
 
   /* --- Sizing & Spacing --- */
   display: block;
-  width: 100%;  /* Make it take full width minus some padding on the sides, adjust '40px' as needed */
-  max-width: none; /* Override any previous max-width */
+  width: 100%;
+  max-width: none;
   margin: 20px auto 0 auto;
   padding: 15px 20px;
   
+  
   /* --- Typography --- */
-  text-align: center; /* <<< THIS IS THE FIX for centering text */
+  text-align: center;
   font-size: 1.1em; 
   font-weight: 600; 
   letter-spacing: 0.5px; 
@@ -104,9 +106,9 @@ body {
 
 /* --- Interactivity --- */
 .glow-button:hover {
-  background-color: #7c4dff1a;
+  background-color: #7c4dff33;
   transform: translateY(-2px);
-  border: .075rem solid #7c4dff1a;
+  border: .075rem solid #7c4dff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -116,7 +118,7 @@ body {
   align-items: center;
   max-width: 80%;
   margin: 0 auto;
-  margin-top: -15%; /* Adjust this percentage as needed */
+  margin-top: -15%;
 }
 
 
