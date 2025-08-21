@@ -197,3 +197,10 @@ img[src$=".webp"] {
   image-rendering: crisp-edges;
   image-rendering: -webkit-optimize-contrast;
 }
+
+/* Extra large screens */
+@media (min-width: 1440px) {
+  .responsive-skin-image {
+    max-width: 700px; /* Very large screens: bigger */
+  }
+}
